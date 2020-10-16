@@ -1,0 +1,27 @@
+{
+  "cwd": "/home/reinhart/projects/artificial-intelligence/aqualife-mockup",
+  "type": [
+    "web",
+    "pwa"
+  ],
+  "name": "AquaLife",
+  "framework": "vue",
+  "template": "tabs",
+  "bundler": "webpack",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#0c8590",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  }
+}
