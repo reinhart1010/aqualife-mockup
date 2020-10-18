@@ -36,7 +36,7 @@
     <!-- Tabbar for switching views-tabs -->
     <f7-toolbar tabbar labels bottom>
       <f7-link tab-link="#view-home" tab-link-active icon-ios="f7:house_fill" icon-aurora="f7:house_fill" icon-md="material:home" text="Home"></f7-link>
-      <f7-link tab-link="#view-catalog" icon-ios="f7:square_list_fill" icon-aurora="f7:square_list_fill" icon-md="material:view_list" text="Catalog"></f7-link>
+      <f7-link tab-link="#view-devices" icon-ios="f7:square_list_fill" icon-aurora="f7:square_list_fill" icon-md="material:view_list" text="Devices"></f7-link>
       <f7-link tab-link="#view-explore" icon-ios="f7:today" icon-aurora="f7:today" icon-md="f7:today" text="Explore"></f7-link>
       <f7-link tab-link="#view-settings" icon-ios="f7:gear" icon-aurora="f7:gear" icon-md="material:settings" text="Settings"></f7-link>
     </f7-toolbar>
@@ -45,7 +45,7 @@
     <f7-view id="view-home" main tab tab-active url="/"></f7-view>
 
     <!-- Catalog View -->
-    <f7-view id="view-catalog" name="catalog" tab url="/catalog/"></f7-view>
+    <f7-view id="view-devices" name="devices" tab url="/devices/"></f7-view>
 
     <!-- Explore View -->
     <f7-view id="view-explore" name="explore" tab url="/explore/"></f7-view>
