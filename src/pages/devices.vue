@@ -5,6 +5,9 @@
         <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="left"></f7-link>
       </f7-nav-left>
       <f7-nav-title title="Devices" :subtitle="$store.state.locations[$store.state.currentLocation].name"></f7-nav-title>
+      <f7-nav-right>
+        <f7-link icon-ios="f7:plus_circle" icon-aurora="f7:plus_circle" icon-md="material:add_circle_outline"></f7-link>
+      </f7-nav-right>
     </f7-navbar>
     <template
       v-for="(venue) in $store.state.locations[$store.state.currentLocation].venues"

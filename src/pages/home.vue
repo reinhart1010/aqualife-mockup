@@ -17,7 +17,11 @@
     <f7-block style="padding-left: calc(var(--f7-safe-area-left) + var(--f7-card-margin-horizontal)); padding-right: calc(var(--f7-safe-area-right) + var(--f7-card-margin-horizontal))">
       <f7-card bg-color="red" text-color="white" style="margin-left: var(--f7-card-margin-horizontal); margin-right: var(--f7-card-margin-horizontal)">
         <f7-card-header><b>Aquarium 3 is low on water (40%)</b></f7-card-header>
-        <f7-card-content>In order to keep the environment alive, please add approximately <b>70 liters (~2367 fl oz)</b> of tap water</f7-card-content>
+        <f7-card-content>In order to keep the environment alive, please add approximately <b>70 liters (~2367 fl oz)</b> of tap water.</f7-card-content>
+      </f7-card>
+      <f7-card bg-color="yellow" text-color="black" style="margin-left: var(--f7-card-margin-horizontal); margin-right: var(--f7-card-margin-horizontal)">
+        <f7-card-header><b>Large Pond is slightly acidic (pH 6.7)</b></f7-card-header>
+        <f7-card-content>Make sure that you have filtered or changed the water regularly.</f7-card-content>
       </f7-card>
       <f7-card bg-color="blue" text-color="white" style="margin-left: var(--f7-card-margin-horizontal); margin-right: var(--f7-card-margin-horizontal)">
         <f7-card-header><b>Adjust your temperature a little bit for Aquarium 2</b></f7-card-header>
@@ -84,13 +88,28 @@
           </f7-card>
         </f7-col>
         <f7-col width="50" medium="33" large="20">
+          <f7-card bg-color="purple" text-color="white" style="margin-left: var(--f7-card-margin-horizontal); margin-right: var(--f7-card-margin-horizontal)">
+            <f7-card-header><b>pH Levels</b></f7-card-header>
+            <f7-card-content>
+              <h1 class="no-margin">6.8</h1>
+              <f7-badge color="white" text-color="deeporange"><b>FAIR</b></f7-badge>
+              <p>
+                <b>Aquarium 1:</b> 7.1<br>
+                <b>Aquarium 2:</b> 7.2<br>
+                <b>Aquarium 3:</b> 7.0<br>
+                <b>Large Pond:</b> 6.7
+              </p>
+            </f7-card-content>
+          </f7-card>
+        </f7-col>
+        <f7-col width="50" medium="33" large="20">
           <f7-card bg-color="gray" text-color="white" style="margin-left: var(--f7-card-margin-horizontal); margin-right: var(--f7-card-margin-horizontal)">
-            <f7-card-header><b>Devices</b></f7-card-header>
+            <f7-card-header><b>Active Devices</b></f7-card-header>
             <f7-card-content>
               <h1 class="no-margin">14/16</h1>
               <f7-badge color="white" text-color="teal"><b>GOOD</b></f7-badge>
               <p>
-                The <b>Aquarium Filter</b> on the <b>Aquarium 1</b> will need to be replaced by next month.
+                The <b>Aquarium Filter</b> on <b>Aquarium 1</b> will need to be replaced by next month.
               </p>
             </f7-card-content>
           </f7-card>
