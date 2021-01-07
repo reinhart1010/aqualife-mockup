@@ -2,8 +2,87 @@
   <f7-page name="settings">
     <f7-navbar title="Settings"></f7-navbar>
 
-    <f7-block-title>Form Example</f7-block-title>
-    <f7-list no-hairlines-md>
+    <f7-block-title>Your Account</f7-block-title>
+
+    <f7-list>
+      <f7-list-item
+        title="Profile"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Organization"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Environment"
+        link="#"
+      ></f7-list-item>
+    </f7-list>
+
+    <f7-block-title>Application</f7-block-title>
+
+    <f7-list>
+      <f7-list-item
+        title="Notifications"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="External Features"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Security"
+        link="#"
+      ></f7-list-item>
+    </f7-list>
+
+    <f7-block-title>Devices</f7-block-title>
+
+    <f7-list>
+      <f7-list-item
+        title="Add New"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Product Manuals"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Troubleshooting"
+        link="#"
+      ></f7-list-item>
+    </f7-list>
+
+    <f7-block-title>About</f7-block-title>
+
+    <f7-list>
+      <f7-list-item
+        title="About Application"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Organization"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Security"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Health and Safety Information"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Product Care and Warranty Information"
+        link="#"
+      ></f7-list-item>
+      <f7-list-item
+        title="Contact Us"
+        link="#"
+      ></f7-list-item>
+    </f7-list>
+
+    <!-- <f7-list no-hairlines-md>
       <f7-list-input
         label="Name"
         type="text"
@@ -153,6 +232,6 @@
         value="Food"
         title="Food"
       ></f7-list-item>
-    </f7-list>
+    </f7-list> -->
   </f7-page>
 </template>
