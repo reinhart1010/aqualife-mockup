@@ -7,14 +7,14 @@
       <f7-card-content :padding="false">
         <div class="bg-color-red" :style="{height: '300px'}">
           <f7-card-header text-color="white" class="display-block">
-            Framework7
+            Lorem Ipsum
             <br />
-            <small :style="{opacity: 0.7}">Build Mobile Apps</small>
+            <small :style="{opacity: 0.7}">Aqualife</small>
           </f7-card-header>
           <f7-link card-close color="white" class="card-opened-fade-in" :style="{position: 'absolute', right: '15px', top: '15px'}" icon-f7="xmark_circle_fill"></f7-link>
         </div>
         <div class="card-content-padding">
-          <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web apps with iOS or Android (Material) native look and feel...</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem ipsa? Error dolor repellendus repellat quia facere mollitia aliquam molestiae unde tempore, rem magnam, suscipit impedit, iure quisquam deleniti cum!</p>
         </div>
       </f7-card-content>
     </f7-card>
@@ -23,14 +23,14 @@
       <f7-card-content :padding="false">
         <div class="bg-color-yellow" :style="{height: '300px'}">
           <f7-card-header text-color="black" class="display-block">
-            Framework7
+            Lorem Ipsum
             <br/>
-            <small :style="{opacity: 0.7}">Build Mobile Apps</small>
+            <small :style="{opacity: 0.7}">Aqualife</small>
           </f7-card-header>
           <f7-link card-close color="black" class="card-opened-fade-in" :style="{position: 'absolute', right: '15px', top: '15px'}" icon-f7="xmark_circle_fill"></f7-link>
         </div>
         <div class="card-content-padding">
-          <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web apps with iOS or Android (Material) native look and feel...</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem ipsa? Error dolor repellendus repellat quia facere mollitia aliquam molestiae unde tempore, rem magnam, suscipit impedit, iure quisquam deleniti cum!</p>
         </div>
       </f7-card-content>
     </f7-card>
